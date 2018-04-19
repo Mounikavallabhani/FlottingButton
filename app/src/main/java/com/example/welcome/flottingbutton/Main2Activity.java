@@ -25,7 +25,6 @@ public class Main2Activity extends AppCompatActivity {
 
         floatingActionButton1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                //TODO something when floating action menu first item clicked
                 Intent it=new Intent(Main2Activity.this,MainActivity.class);
                 startActivity(it);
 
@@ -33,7 +32,6 @@ public class Main2Activity extends AppCompatActivity {
         });
         floatingActionButton2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                //TODO something when floating action menu second item clicked
                 Intent it=new Intent(Main2Activity.this,MainActivity.class);
                 startActivity(it);
 
@@ -42,7 +40,6 @@ public class Main2Activity extends AppCompatActivity {
         });
         floatingActionButton3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                //TODO something when floating action menu third item clicked
                 Intent it=new Intent(Main2Activity.this,MainActivity.class);
                 startActivity(it);
 
@@ -52,7 +49,6 @@ public class Main2Activity extends AppCompatActivity {
 
         floatingActionButton4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                //TODO something when floating action menu third item clicked
                 Intent it=new Intent(Main2Activity.this,MainActivity.class);
                 startActivity(it);
 

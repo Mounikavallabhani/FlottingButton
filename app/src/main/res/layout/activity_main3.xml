@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.welcome.flottingbutton.Main3Activity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fab1"
+        android:layout_alignLeft="@+id/fab1"
+        android:layout_alignStart="@+id/fab1"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="37dp"
+        android:src="@drawable/ic_send_black_24dp"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorPrimary"
+        app:elevation="10dp"
+        app:pressedTranslationZ="12dp"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fab"
+        android:layout_alignLeft="@+id/fab"
+        android:layout_alignStart="@+id/fab"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="42dp"
+        android:src="@drawable/ic_clear_black_24dp"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorPrimary"
+        app:elevation="10dp"
+        app:pressedTranslationZ="12dp"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:src="@drawable/ic_send_black_24dp"
+        app:backgroundTint="@color/colorAccent"
+        app:elevation="10dp"
+        app:pressedTranslationZ="12dp"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+</RelativeLayout>
